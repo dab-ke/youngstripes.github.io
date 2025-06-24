@@ -1,0 +1,431 @@
+<!DOCTYPE html><html lang="en"><head><meta http-equiv="Content-Security-Policy" content="default-src 'self' 'unsafe-inline' 'unsafe-eval' data: blob: https://cdnjs.cloudflare.com https://cdn.jsdelivr.net https://code.jquery.com https://unpkg.com https://d3js.org https://threejs.org https://cdn.plot.ly https://stackpath.bootstrapcdn.com https://maps.googleapis.com https://cdn.tailwindcss.com https://ajax.googleapis.com https://kit.fontawesome.com https://cdn.datatables.net https://maxcdn.bootstrapcdn.com https://code.highcharts.com https://tako-static-assets-production.s3.amazonaws.com https://www.youtube.com https://fonts.googleapis.com https://fonts.gstatic.com https://pfst.cf2.poecdn.net https://puc.poecdn.net https://i.imgur.com https://wikimedia.org https://*.icons8.com https://*.giphy.com https://picsum.photos https://images.unsplash.com; frame-src 'self' https://www.youtube.com https://trytako.com; child-src 'self'; manifest-src 'self'; worker-src 'self'; upgrade-insecure-requests; block-all-mixed-content;">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Young Stripes - Empowering Youth Through STEM</title>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+
+    <link rel="stylesheet" href="styles/common.css">
+    <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#home" class="logo"><img src="images/ys-logo.png" alt="" height="60px"></a>
+            <div class="mobile-menu">☰</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#initiatives">Initiatives</a></li>
+                <li><a href="#people">Our People</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="content-section">
+            <div class="image-section"></div>
+            <div class="hero-content">
+                <div class="vertical-wave-container">
+                    <svg id="wave" style="transition: 0.3s;" viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
+                        <defs>
+                            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                                <stop stop-color="rgba(34, 34, 34, 1)" offset="0%"></stop>
+                                <stop stop-color="rgba(34, 34, 34, 1)" offset="100%"></stop>
+                            </linearGradient>
+                        </defs>
+                        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)" d="M0,40L12,36.7C24,33,48,27,72,23.3C96,20,120,20,144,23.3C168,27,192,33,216,35C240,37,264,33,288,30C312,27,336,23,360,26.7C384,30,408,40,432,48.3C456,57,480,63,504,66.7C528,70,552,70,576,65C600,60,624,50,648,40C672,30,696,20,720,23.3C744,27,768,43,792,51.7C816,60,840,60,864,56.7C888,53,912,47,936,40C960,33,984,27,1008,31.7C1032,37,1056,53,1080,56.7C1104,60,1128,50,1152,40C1176,30,1200,20,1224,16.7C1248,13,1272,17,1296,23.3C1320,30,1344,40,1368,36.7C1392,33,1416,17,1440,20C1464,23,1488,47,1512,48.3C1536,50,1560,30,1584,18.3C1608,7,1632,3,1656,1.7C1680,0,1704,0,1716,0L1728,0L1728,100L1716,100C1704,100,1680,100,1656,100C1632,100,1608,100,1584,100C1560,100,1536,100,1512,100C1488,100,1464,100,1440,100C1416,100,1392,100,1368,100C1344,100,1320,100,1296,100C1272,100,1248,100,1224,100C1200,100,1176,100,1152,100C1128,100,1104,100,1080,100C1056,100,1032,100,1008,100C984,100,960,100,936,100C912,100,888,100,864,100C840,100,816,100,792,100C768,100,744,100,720,100C696,100,672,100,648,100C624,100,600,100,576,100C552,100,528,100,504,100C480,100,456,100,432,100C408,100,384,100,360,100C336,100,312,100,288,100C264,100,240,100,216,100C192,100,168,100,144,100C120,100,96,100,72,100C48,100,24,100,12,100L0,100Z"></path>
+                    </svg>
+                </div>
+                <h1 style="color: #1fd4de;">Let's Learn About <span style="color: #e9572d;">Science</span></h1>
+                <p>It's like magic, but real. Increase your creativity</p>
+                <a href="#initiatives" class="btn"><b>Explore Our Programs</b></a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <svg width="40" height="40" viewBox="0 0 24 24" fill="#e9572d">
+                <path d="M7 10l5 5 5-5H7z"></path>
+            </svg>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <div class="section-title">
+            <h2>About Us</h2>
+            <p>Imprinting layers of skills, talents, & experiences</p>
+        </div>
+        
+        <div class="about-grid" style="max-width: 1200px; margin: 0 auto;">
+            <!-- Challenge Section -->
+            <div class="challenge-section" style="margin-bottom: 4rem;">
+                <div class="card" style="background: var(--light); padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                    <h3 style="color: var(--accent); margin-bottom: 1rem; font-size: 1.5rem;">The Challenge</h3>
+                    <p>Today, in Kenya, several young people lack aspiration in STEM fields, both in academia and industry. They don't see opportunity for their futures in these fields which consequently leads to impeded socio-economic development and further stigmatisation of STEM careers.</p>
+                </div>
+            </div>
+    
+            <!-- Vision & Mission -->
+            <div class="vision-mission-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
+                <div class="vision-card" style="background: var(--primary); color: white; padding: 2rem; border-radius: 15px; transition: 0.3s;">
+                    <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Our Vision</h3>
+                    <p>We are on a journey to educate, empower and incubate young Scientists, Technologists, Engineers and Mathematicians (STEMists) and create leaders of tomorrow through pioneering collaborative engagement.</p>
+                </div>
+                <div class="mission-card" style="background: var(--secondary); color: white; padding: 2rem; border-radius: 15px; transition: 0.3s;">
+                    <h3 style="margin-bottom: 1rem; font-size: 1.5rem;">Our Mission</h3>
+                    <p>With a special focus on gender equality, we aspire to excite, inspire and generate opportunities to increase awareness and reduce the stigma surrounding STEM pathways.</p>
+                </div>
+            </div>
+    
+            <!-- SDG Goals -->
+            <div class="sdg-section" style="margin-bottom: 4rem;">
+                <h3 style="text-align: center; margin-bottom: 2rem; font-size: 1.5rem;">Contributing to SDGs</h3>
+                <div class="sdg-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem;">
+                    <div class="sdg-card" style="text-align: center; padding: 2rem; border-radius: 15px; background: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s;">
+                        <div class="sdg-icon" style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">4️⃣</div>
+                        <h4 style="margin-bottom: 1rem;">Quality Education</h4>
+                        <p>Ensuring inclusive and equitable quality education for all</p>
+                    </div>
+                    <div class="sdg-card" style="text-align: center; padding: 2rem; border-radius: 15px; background: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s;">
+                        <div class="sdg-icon" style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">5️⃣</div>
+                        <h4 style="margin-bottom: 1rem;">Gender Equality</h4>
+                        <p>Promoting gender equality in STEM fields</p>
+                    </div>
+                    <div class="sdg-card" style="text-align: center; padding: 2rem; border-radius: 15px; background: white; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s;">
+                        <div class="sdg-icon" style="font-size: 2rem; color: var(--accent); margin-bottom: 1rem;">🔟</div>
+                        <h4 style="margin-bottom: 1rem;">Reduced Inequalities</h4>
+                        <p>Reducing disparities in access to STEM education</p>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Strategic Execution -->
+            <div class="strategy-section">
+                <h3 style="text-align: center; margin-bottom: 2rem; font-size: 1.5rem;">Strategic Execution</h3>
+                <div class="strategy-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                    <div class="strategy-card" style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s;">
+                        <div style="display: flex; gap: 6px;">
+                            <h4 style="color: var(--primary); margin-bottom: 1rem;">Educate</h4>
+                            <img src="images/book_1164651.png" alt="" height="24px">
+                        </div>
+                        <p>Create a platform to excite and inspire young adults, especially young women, about STEM pathways and leadership roles.</p>
+                    </div>
+                    <div class="strategy-card" style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s;">
+                        <div style="display: flex; gap: 6px;">
+                            <h4 style="color: var(--primary); margin-bottom: 1rem;">Empower</h4>
+                            <img src="images/people_3137911.png" alt="" height="24px">
+                        </div>
+                        <p>Develop networks that foster professional and soft skills capabilities to create a 'work-place-ready' youth.</p>
+                    </div>
+                    <div class="strategy-card" style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s;">
+                        <div style="display: flex; gap: 6px;">
+                            <h4 style="color: var(--primary); margin-bottom: 1rem;">Incubate</h4>
+                            <img src="images/incubator_10479507.png" alt="" height="24px">
+                        </div>
+                        <p>Champion, endorse and encourage young adults to develop their micro scale ideas into macro scale realities.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stats">
+        <div class="section">
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <h3>1000+</h3>
+                    <p>Students Impacted</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Partner Schools</p>
+                </div>
+                <div class="stat-item">
+                    <h3>30+</h3>
+                    <p>Industry Partners</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100+</h3>
+                    <p>Mentors &amp; Ambassadors</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="custom-shape-divider-top-1750448265">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <section id="initiatives" class="section">
+        <div class="section-title">
+            <h2>Our Initiatives</h2>
+            <p>Creating pathways for success through innovative programs</p>
+        </div>
+        <div class="initiatives">
+            <div class="initiative-card">
+                <div class="initiative-img" style="background-image: url('images/stripes-stars.png')"></div>
+                <div class="initiative-content">
+                    <h3>Stripes &amp; Stars</h3>
+                    <p>Our flagship program providing exposure and support for young adults in STEM and leadership pathways.</p>
+                    <a href="stripes&stars.html" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div class="initiative-card">
+                <div class="initiative-img" style="background-image: url(images/lets-learn-kenya.png)"></div>
+                <div class="initiative-content">
+                    <h3>Let's Learn Kenya</h3>
+                    <p>A curated catalogue of learning resources supporting students, parents and teachers worldwide.</p>
+                    <a href="#" class="btn">Explore Resources</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="people" class="section" style="background: var(--light);">
+        <div class="section-title">
+            <h2>Our People</h2>
+            <p>Meet the team driving change in STEM education</p>
+        </div>
+    
+        <div class="team-container" style="max-width: 1200px; margin: 0 auto;">
+            <!-- Team Categories -->
+            <div class="team-categories" style="display: flex; justify-content: center; gap: 2rem; margin-bottom: 4rem; flex-wrap: wrap;">
+                <button class="team-tab active" style="padding: 1rem 2rem; border: none; background: var(--primary); color: white; border-radius: 50px; cursor: pointer; transition: 0.3s;">Ambassadors</button>
+                <button class="team-tab" style="padding: 1rem 2rem; border: none; background: var(--primary); color: white; border-radius: 50px; cursor: pointer; transition: 0.3s;">Mentors</button>
+                <button class="team-tab" style="padding: 1rem 2rem; border: none; background: var(--primary); color: white; border-radius: 50px; cursor: pointer; transition: 0.3s;">Advisory Board</button>
+            </div>
+    
+            <!-- Team Members Grid -->
+            <div class="team-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+                <!-- Sample Team Member Cards -->
+                <div class="team-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s;">
+                    <div class="member-img" style="height: 200px; background: url('https://source.unsplash.com/random/400x400/?person') center/cover;"></div>
+                    <div class="member-info" style="padding: 1.5rem;">
+                        <h3 style="margin-bottom: 0.5rem;">Sharon Nyamongo</h3>
+                        <p style="color: var(--secondary); margin-bottom: 1rem;">BSc Mathematics and Computer Science</p>
+                        <p style="margin-bottom: 1rem;">Sharon is an undergraduate student at Kenyatta University studying Mathematics and Computer Science. She is the founder and current Chair of the Women in STEM KU Chapter.</p>
+                        <a href="#" class="btn" style="font-size: 0.9rem;">Read More</a>
+                    </div>
+                </div>
+
+                <div class="team-card" style="background: white; border-radius: 15px; overflow: hidden; box-shadow: 0 5px 15px rgba(0,0,0,0.1); transition: 0.3s;">
+                    <div class="member-img" style="height: 200px; background: url('https://source.unsplash.com/random/400x400/?person') center/cover;"></div>
+                    <div class="member-info" style="padding: 1.5rem;">
+                        <h3 style="margin-bottom: 0.5rem;">Clifford Mburu</h3>
+                        <p style="color: var(--secondary); margin-bottom: 1rem;">BSc International Business Administration</p>
+                        <p style="margin-bottom: 1rem;">Cliff holds a bachelors degree in International Business Administration with specialization in Finance and Marketing. He is detail oriented and a quick learner who loves numbers and figures.</p>
+                        <a href="#" class="btn" style="font-size: 0.9rem;">Read More</a>
+                    </div>
+                </div>
+    
+                <!-- Add more team member cards as needed -->
+            </div>
+        </div>
+    </section>
+    <div class="custom-shape-divider-top-1750448464">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z" class="shape-fill"></path>
+        </svg>
+    </div>
+
+    <section id="contact" class="section">
+        <div class="section-title">
+            <h2>Contact Us</h2>
+            <p>Get in touch to learn more about our programs</p>
+        </div>
+    
+        <div class="contact-container" style="max-width: 800px; margin: 0 auto; padding: 0 1rem;">
+            <form id="contact-form" style="background: white; padding: 2rem; border-radius: 15px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+                <!-- Name Fields Grid -->
+                <div class="form-grid" style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem;">
+                    <div class="form-group" style="min-width: 0;"> <!-- Added min-width: 0 -->
+                        <label for="firstName" style="display: block; margin-bottom: 0.5rem;">First Name</label>
+                        <input type="text" id="firstName" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"> <!-- Added box-sizing: border-box -->
+                    </div>
+                    <div class="form-group" style="min-width: 0;"> <!-- Added min-width: 0 -->
+                        <label for="lastName" style="display: block; margin-bottom: 0.5rem;">Last Name</label>
+                        <input type="text" id="lastName" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"> <!-- Added box-sizing: border-box -->
+                    </div>
+                </div>
+    
+                <div class="form-group" style="margin: 1rem 0;">
+                    <label for="email" style="display: block; margin-bottom: 0.5rem;">Email Address</label>
+                    <input type="email" id="email" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+                </div>
+    
+                <div class="form-group" style="margin: 1rem 0;">
+                    <label for="role" style="display: block; margin-bottom: 0.5rem;">I am a...</label>
+                    <select id="role" required style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;">
+                        <option value="">Choose the option that best describes you</option>
+                        <option value="student">Highschool student</option>
+                        <option value="teacher">Highschool teacher</option>
+                        <option value="university">University student</option>
+                        <option value="lecturer">University lecturer</option>
+                        <option value="parent">Parent of a student</option>
+                        <option value="coordinator">Clubs coordinator</option>
+                        <option value="professional">Working professional</option>
+                        <option value="industry">Industrial representative</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+    
+                <div class="form-group" style="margin: 1rem 0;">
+                    <label style="display: block; margin-bottom: 0.5rem;">What would you like to talk to us about?</label>
+                    <div class="checkbox-group" style="display: grid; gap: 0.5rem;">
+                        <label style="display: flex; align-items: center; gap: 0.5rem;">
+                            <input type="checkbox" name="interest" value="volunteer">
+                            Volunteering with us
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 0.5rem;">
+                            <input type="checkbox" name="interest" value="program">
+                            Having Stripes & Stars program in our school
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 0.5rem;">
+                            <input type="checkbox" name="interest" value="support">
+                            Supporting our initiative
+                        </label>
+                        <label style="display: flex; align-items: center; gap: 0.5rem;">
+                            <input type="checkbox" name="interest" value="other">
+                            Other
+                        </label>
+                    </div>
+                </div>
+    
+                <div class="form-group" style="margin: 1rem 0;">
+                    <label for="message" style="display: block; margin-bottom: 0.5rem;">Additional Message</label>
+                    <textarea id="message" rows="5" style="width: 100%; padding: 0.8rem; border: 1px solid #ddd; border-radius: 5px; box-sizing: border-box;"></textarea>
+                </div>
+    
+                <button type="submit" class="btn" style="width: 100%;">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Add this section just before closing the body tag -->
+    <div class="custom-shape-divider-bottom-1750448619">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M985.66,92.83C906.67,72,823.78,31,743.84,14.19c-82.26-17.34-168.06-16.33-250.45.39-57.84,11.73-114,31.07-172,41.86A600.21,600.21,0,0,1,0,27.35V120H1200V95.8C1132.19,118.92,1055.71,111.31,985.66,92.83Z" class="shape-fill"></path>
+        </svg>
+    </div>
+    <footer style="color: white; padding: 3rem 0 1rem 0;">
+        <div class="footer-container" style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+            <!-- Footer Grid -->
+            <div class="footer-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 3rem;">
+                <!-- Company Info -->
+                <div class="footer-info">
+                    <img src="images/ys-logo.png" alt="Young Stripes" height="100px" style="margin-bottom: 1rem;">
+                    <p style="color: #ffffff99; margin-bottom: 1rem;">Empowering youth through STEM education and leadership development.</p>
+                    <!-- Social Media Icons -->
+                    <div class="social-icons" style="display: flex; gap: 1rem;">
+                        <a href="https://www.facebook.com/YStripesKenya" target="_blank" style="color: white; background: rgba(255,255,255,0.1); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://www.instagram.com/ystripeskenya/" target="_blank" style="color: white; background: rgba(255,255,255,0.1); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+
+                        <a href="https://x.com/ystripeskenya" target="_blank" style="color: white; background: rgba(255,255,255,0.1); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="20" height="20" viewBox="0,0,256,256">
+                                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(8.53333,8.53333)"><path d="M26.37,26l-8.795,-12.822l0.015,0.012l7.93,-9.19h-2.65l-6.46,7.48l-5.13,-7.48h-6.95l8.211,11.971l-0.001,-0.001l-8.66,10.03h2.65l7.182,-8.322l5.708,8.322zM10.23,6l12.34,18h-2.1l-12.35,-18z"></path></g></g>
+                            </svg>
+                        </a>
+                        <a href="https://www.linkedin.com/company/ystripeskenya" target="_blank" style="color: white; background: rgba(255,255,255,0.1); width: 40px; height: 40px; border-radius: 50%; display: flex; align-items: center; justify-content: center; transition: 0.3s;">
+                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                                <rect x="2" y="9" width="4" height="12"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                
+                <!-- Quick Links -->
+                <div class="footer-links">
+                    <h4 style="margin-bottom: 1rem;">Quick Links</h4>
+                    <ul style="list-style: none;">
+                        <li style="margin-bottom: 0.5rem;"><a href="#about" style="color: #ffffff99; text-decoration: none; transition: 0.3s;">About Us</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#initiatives" style="color: #ffffff99; text-decoration: none; transition: 0.3s;">Our Initiatives</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#people" style="color: #ffffff99; text-decoration: none; transition: 0.3s;">Our People</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#contact" style="color: #ffffff99; text-decoration: none; transition: 0.3s;">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="footer-contact">
+                    <h4 style="margin-bottom: 1rem;">Contact Info</h4>
+                    <a href="mailto:info@youngstripes.org" style="color: #ffffff99; margin-bottom: 0.5rem; text-decoration: none;">Email: info@youngstripes.org</a><br>
+                    <a href="tel:254725202658" style="color: #ffffff99; margin-bottom: 0.5rem; text-decoration: none;">Phone: +254 725 202 658</a>
+                    <p style="color: #ffffff99;">Nairobi, Kenya</p>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSezoV1VEop1YUT8Cz02ixDe3JzRT6hK0qxbJDsEagNaJ2dkOg/viewform" target="_blank" class="btn" style="padding: 0.8rem; margin-top: 10px;"><b>Join our mailing list</b></a>
+                </div>
+            </div>
+
+            <!-- Copyright Bar -->
+            <div class="copyright" style="border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem; text-align: center;">
+                <p style="color: #ffffff99; font-size: 0.8rem;">© 2025 Young Stripes. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Navbar scroll effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.querySelector('.navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile menu toggle
+        const mobileMenu = document.querySelector('.mobile-menu');
+        const navLinks = document.querySelector('.nav-links');
+        mobileMenu.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+
+        // Smooth scroll
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+    <script>
+        const teamTabs = document.querySelectorAll('.team-tab');
+        teamTabs.forEach(tab => {
+            tab.addEventListener('click', () => {
+                teamTabs.forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                // Add logic to show different team members based on category
+            });
+        });
+    </script>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', (e) => {
+            e.preventDefault();
+            // Add form submission logic here
+            alert('Thank you for your message. We will get back to you soon!');
+            e.target.reset();
+        });
+    </script>
+
+
+</body></html>
